@@ -1,0 +1,30 @@
+*{
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    background-color: #f5f8ff;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    overflow: hidden;
+}
+.homepage_vector{
+    width: 1040px;
+    height: 920px;
+    margin: 40px 40px 40px 40px;
+    align-items: center;
+}
+.logo-cap{
+    position: absolute;
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-size: 32px;
+    font-weight: 600;
+    letter-spacing: 8px;
+    columns: #2f3543;
+    right: 280px;  
+    top: 120px; 
+}
+.logo-cap .logo-s{
+    font-weight: normal;
+}
