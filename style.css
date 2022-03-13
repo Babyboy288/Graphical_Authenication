@@ -8,6 +8,7 @@
 body{
     overflow: hidden;
 }
+/* Infynecraze logo*/
 .homepage_vector{
     width: 1040px;
     height: 920px;
@@ -28,3 +29,7 @@ body{
 .logo-cap .logo-s{
     font-weight: normal;
 }
+
+/*sign in sign up*/
+
+
