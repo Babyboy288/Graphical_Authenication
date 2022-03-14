@@ -11,23 +11,38 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="homepage">
-        <img class="homepage_vector"src="./img/Bg_Homepage.png" alt="homepage vector design">
-        <div class="logo">
-            <span class="logo-cap">INFYNE<span class="logo-s">CRAZE</span></span>
-        </div>
+    <div>
+        <div class="homepage">
+            <!--Banner Image
+            <img class="homepage_vector"src="./img/Bg_Homepage.png" alt="homepage vector design"> -->
+            <!--Infynecraze-->
+            <div class="logo">
+                <span class="logo-cap">INFYNE<span class="logo-s">CRAZE</span></span>
+            </div>
+            <!--Signin signup-->
+            <div class="tile" id="tile-1">
+
+                <!-- Nav tabs -->
+                <ul class="nav nav-tabs nav-justified" role="tablist">
+                  <div class="slider"></div>
+                   <li class="nav-item">
+                      <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true"> Sign in</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false"> Signup </a>
+                    </li>
+                </ul>
+              
+                <!-- Tab panes -->
+                <div class="tab-content">
+                  <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">Home</div>
+                <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">Profile</div>
+                
+                </div>
+            </div>
+        
+
     </div>
-    <div class="main-section" id="main"> 
-        <ul class="slider">
-            <li class="nav-items">
-                <a href="#signin" class="nav-link active">Signin</a>
-            </li>
-            <li class="nav-items">
-                <a href="#signup" class="nav-link">Signup</a>
-            </li>
-        </ul>
-    </div>
-    <div class="signin" id="signin">Welcome Back</div>
-    <div class="signup" id="signup">hi there</div>
+        
 </body>
 </html>
